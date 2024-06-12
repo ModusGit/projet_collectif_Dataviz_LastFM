@@ -1,0 +1,31 @@
+/*--------------------DataViz - Test - CSS ----------------------------*/
+
+/*----Remiose à 0 de toutes les marges----*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------MAIN-------------*/
+
+#main canvas {
+    position: relative;
+    z-index: 2;
+}
+
+#main img {
+    position: absolute; 
+    opacity: 0.05;
+    width: 50%;
+    top: 2%;
+    left: 25%;
+    height: auto;
+}
+
+footer {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 11px;
+    color: darkgray;
+}
